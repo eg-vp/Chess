@@ -120,9 +120,9 @@ public class Main {
                 {'_', '_', '_', '_', '_', '_', '_', '_'},
                 {'_', '_', '_', '_', '_', '_', '_', '_'},
                 {'_', '_', '_', '_', '_', '_', '_', '_'}};
-        String figureName;
-        String from;
+        String figureName, from;
         String to;
+
         Map<String, Integer> figures = new HashMap<String, Integer>();
         createArrayFigures(figures);
         outputField(field);
